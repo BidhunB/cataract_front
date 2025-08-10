@@ -119,7 +119,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.7 }}
           >
             <motion.a
-              href="#upload"
+              href="/howitworks"
               className="px-8 py-4 rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 font-semibold text-lg hover-lift"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -127,12 +127,12 @@ export function Hero() {
               Get Started
             </motion.a>
             <motion.a
-              href="/howitworks"
+              href="/dashboard"
               className="px-8 py-4 rounded-full border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 font-semibold text-lg hover-lift"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Learn More
+              Dashboard
             </motion.a>
           </motion.div>
 
